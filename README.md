@@ -1,15 +1,15 @@
-
+[README_EN.md](https://github.com/user-attachments/files/30620338/README_EN.md)
 # Pokémon Recomp
 
-Una raccolta di mod per **Pokémon Rosso originale** pensate per rendere l’esperienza di gioco più moderna, accessibile e ricca di contenuti.
+A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
 
-Tutte le mod sono disponibili nel repository:
+All mods are available in the repository:
 
 **[github.com/FAFF0x/gen1recomp](https://github.com/FAFF0x/gen1recomp)**
 
 ---
 
-## Indice
+## Table of Contents
 
 - [Quality of Life Mods](#quality-of-life-mods)
   - [Area DexNav](#area-dexnav)
@@ -39,230 +39,230 @@ Tutte le mod sono disponibili nel repository:
 
 ## Area DexNav
 
-Premi **SELECT** mentre esplori il mondo di gioco per avviare un incontro con un Pokémon non ancora catturato presente nella tabella reale degli incontri dell’area corrente.
+Press **SELECT** while exploring the overworld to start an encounter with an uncaught Pokémon from the current area's real encounter table.
 
 ---
 
 ## Catch Helper
 
-Aggiunge informazioni utili durante gli incontri selvatici:
+Adds useful information during wild encounters:
 
-- mostra in tempo reale la probabilità di cattura;
-- utilizza gli stessi PS, alterazioni di stato, catch rate e parametri delle Ball usati dal motore di gioco;
-- mostra una piccola Poké Ball accanto al nome dei Pokémon già posseduti nel Pokédex;
-- supporta la Zona Safari, compresi gli effetti di Esca e Roccia sul catch rate.
+- displays the catch probability in real time;
+- uses the same HP, status conditions, catch rate, and Ball parameters used by the game engine;
+- displays a small Poké Ball next to the name of Pokémon already owned in the Pokédex;
+- supports the Safari Zone, including the effects of Bait and Rock on the catch rate.
 
-### Esempio
+### Example
 
 ```text
 P18 G27 U36
 ```
 
-| Sigla | Ball |
+| Code | Ball |
 |---|---|
 | `P` | Poké Ball |
-| `G` | Mega Ball |
+| `G` | Great Ball |
 | `U` | Ultra Ball |
 | `S` | Safari Ball |
 
-Il numero indica la percentuale di successo della cattura.
+The number represents the catch success percentage.
 
 ---
 
 ## DV/EV Editor
 
-Aggiunge la voce **DV/EV** al sottomenu di ogni Pokémon della squadra, consentendo di modificare DV e Stat EXP senza entrare in battaglia.
+Adds a **DV/EV** option to each party Pokémon's submenu, allowing DVs and Stat EXP to be edited outside of battle.
 
-### Pagina DV
+### DV Page
 
-Permette di modificare:
+Allows you to edit:
 
-- Attacco;
-- Difesa;
-- Velocità;
-- Speciale.
+- Attack;
+- Defense;
+- Speed;
+- Special.
 
-I valori validi vanno da `0` a `15`.
+Valid values range from `0` to `15`.
 
-Il DV dei PS viene ricalcolato automaticamente in base ai quattro DV modificabili, come previsto dalle meccaniche della prima generazione.
+The HP DV is recalculated automatically from the four editable DVs, following Generation I mechanics.
 
-### Pagina EV / Stat EXP
+### EV / Stat EXP Page
 
-Permette di modificare separatamente:
+Allows you to edit the following values separately:
 
-- PS;
-- Attacco;
-- Difesa;
-- Velocità;
-- Speciale.
+- HP;
+- Attack;
+- Defense;
+- Speed;
+- Special.
 
-Caratteristiche:
+Features:
 
-- valori esatti da `0` a `65.535`;
-- visualizzazione del contributo EV effettivo da `0` a `63`;
-- aggiornamento in tempo reale della statistica finale risultante.
+- exact values from `0` to `65,535`;
+- displays the effective EV contribution from `0` to `63`;
+- updates the resulting final stat in real time.
 
 ---
 
 ## EXP Share Modes
 
-Aggiunge tre modalità selezionabili per la distribuzione dei Punti Esperienza.
+Adds three selectable Experience Point distribution modes.
 
-| Modalità | Funzionamento |
+| Mode | Behavior |
 |---|---|
-| **Off** | Ricevono esperienza soltanto i Pokémon ancora in vita che hanno partecipato alla lotta. |
-| **Classic Even Split** | Modalità predefinita. Il pool completo viene diviso equamente tra tutti i Pokémon in vita della squadra. |
-| **Modern Progressive** | I partecipanti dividono il normale pool del 100%; i Pokémon in vita che non hanno combattuto dividono un secondo pool del 50%. Il totale è circa `1,5×`. |
+| **Off** | Only conscious Pokémon that participated in battle receive experience. |
+| **Classic Even Split** | Default mode. The full experience pool is divided evenly among all conscious Pokémon in the party. |
+| **Modern Progressive** | Participants split the normal 100% experience pool, while conscious Pokémon that did not battle split a second 50% pool. The total is approximately `1.5×`. |
 
 ---
 
 ## Guaranteed Catch
 
-Ogni Poké Ball registrata cattura sempre il Pokémon avversario, indipendentemente da:
+Every registered Poké Ball catches the opposing Pokémon successfully, regardless of:
 
-- PS rimanenti;
-- alterazioni di stato;
-- specie;
+- remaining HP;
+- status conditions;
+- species;
 - catch rate.
 
 ---
 
 ## HM Anywhere
 
-Consente di usare le MN possedute senza doverle insegnare a un Pokémon.
+Allows owned HMs to be used without teaching them to a Pokémon.
 
-È sufficiente avere la relativa MN nello zaino. Le medaglie richieste restano comunque necessarie.
+You only need to have the corresponding HM in your Bag. The required Badges are still necessary.
 
-### Comandi
+### Controls
 
-- **CUT** — premi `A` davanti a un albero o a un cespuglio tagliabile.
-- **SURF** — premi `A` davanti all’acqua; premi nuovamente `A` verso la terraferma per scendere.
-- **STRENGTH** — premi `A` davanti a un masso per attivare Forza e iniziare a spingerlo.
-- **FLASH** — apri il menu Start, seleziona il nuovo menu **HM** e scegli **FLASH**.
-- **FLY** — apri il menu Start, seleziona il nuovo menu **HM** e scegli **FLY**.
+- **CUT** — press `A` while facing a cuttable tree or bush.
+- **SURF** — press `A` while facing water; press `A` again toward land to dismount.
+- **STRENGTH** — press `A` while facing a boulder to activate Strength and begin moving it.
+- **FLASH** — open the Start menu, select the new **HM** submenu, and choose **FLASH**.
+- **FLY** — open the Start menu, select the new **HM** submenu, and choose **FLY**.
 
 ---
 
 ## Modern Bag
 
-Trasforma lo zaino in un inventario moderno diviso in sei tasche, navigabili con **Sinistra** e **Destra**.
+Transforms the Bag into a modern inventory divided into six pockets, navigated with **Left** and **Right**.
 
-Rimuove inoltre il limite originale di 20 tipi di oggetti diversi.
+It also removes the original 20-item-type capacity limit.
 
-### Tasche disponibili
+### Available Pockets
 
-| Tasca | Contenuto |
+| Pocket | Contents |
 |---|---|
-| **MEDICINE** | Pozioni, cure di stato, Revitalizzanti, Etere, Elisir, vitamine, PP-Su e Caramelle Rare. |
-| **BALLS** | Poké Ball, Mega Ball, Ultra Ball, Master Ball e Ball aggiunte da altre mod. |
-| **TM HM** | Tutte le MT e le MN. |
-| **BATTLE** | Strumenti X, Mirino, Superguardia e Poké Bambola. |
-| **KEY ITEMS** | Bicicletta, Canne da pesca, Poké Flauto, chiavi, tessere e altri strumenti importanti. |
-| **OTHER** | Pietre evolutive, Repellenti, Fune di Fuga, fossili e strumenti generici. |
+| **MEDICINE** | Potions, status-healing items, Revives, Ether, Elixir, vitamins, PP Ups, and Rare Candies. |
+| **BALLS** | Poké Balls, Great Balls, Ultra Balls, Master Balls, and Balls added by other mods. |
+| **TM HM** | All TMs and HMs. |
+| **BATTLE** | X items, Dire Hit, Guard Spec., and Poké Doll. |
+| **KEY ITEMS** | Bicycle, Fishing Rods, Poké Flute, keys, cards, and other important items. |
+| **OTHER** | Evolution Stones, Repels, Escape Rope, fossils, and general-purpose items. |
 
 ---
 
 ## Move Inspector
 
-Mostra direttamente durante la lotta le informazioni tecniche della mossa evidenziata:
+Displays technical information for the highlighted move directly during battle:
 
-- tipo;
+- type;
 - PP;
-- potenza;
-- precisione;
-- efficacia;
-- bonus STAB.
+- power;
+- accuracy;
+- effectiveness;
+- STAB bonus.
 
 ---
 
 ## Moves Manager
 
-Aggiunge la voce **MOVES** al sottomenu di ogni Pokémon della squadra.
+Adds a **MOVES** option to each party Pokémon's submenu.
 
-### Pagina principale
+### Main Page
 
-Mostra:
+Displays:
 
-- le quattro mosse conosciute;
-- i PP attuali e massimi;
-- eventuali slot vuoti;
-- la possibilità di riordinare le mosse premendo **SELECT**.
+- the four currently known moves;
+- current and maximum PP;
+- any empty move slots;
+- move reordering with **SELECT**.
 
-### Schede tecniche
+### Technical Pages
 
-Ogni mossa dispone di tre pagine informative con:
+Each move has three information pages containing:
 
-- tipo e categoria fisica, speciale o di stato;
-- potenza e precisione;
-- PP, PP massimi e PP Up;
-- priorità;
-- probabilità di colpo critico aumentata;
-- effetto e tipo di effetto;
-- danno fisso;
-- numero di colpi;
-- compatibilità con Counter;
-- turni di caricamento;
-- semi-invulnerabilità;
-- indice;
-- identificatore interno;
-- animazione.
+- type and physical, special, or status category;
+- power and accuracy;
+- PP, maximum PP, and PP Ups;
+- priority;
+- increased critical-hit probability;
+- effect and effect type;
+- fixed damage;
+- number of hits;
+- Counter compatibility;
+- charging turns;
+- semi-invulnerability;
+- index;
+- internal identifier;
+- animation.
 
-### Sostituzione delle mosse
+### Replacing Moves
 
-Premendo `A` sulla scheda tecnica puoi scegliere una mossa dalla memoria del Pokémon.
+Press `A` on a move's technical page to choose a replacement from the Pokémon's move memory.
 
-La memoria iniziale viene ricostruita usando:
+The initial move memory is rebuilt using:
 
-- le mosse attualmente conosciute;
-- le mosse iniziali della linea evolutiva;
-- le mosse apprese naturalmente entro il livello attuale.
+- currently known moves;
+- starting moves from the evolutionary line;
+- level-up moves learned up to the Pokémon's current level.
 
 ---
 
 ## Trade Evolution Fix
 
-Sostituisce le quattro evoluzioni tramite scambio della prima generazione con evoluzioni per livello.
+Replaces the four Generation I trade evolutions with level-based evolutions.
 
-I Pokémon coinvolti si evolvono al **livello 40**.
+The affected Pokémon evolve at **level 40**.
 
 ---
 
 ## Quest System
 
-Aggiunge la voce **QUESTS** al menu Start.
+Adds a **QUESTS** option to the Start menu.
 
-### Diario delle missioni
+### Quest Log
 
-Il menu contiene due sezioni navigabili con **Sinistra** e **Destra**:
+The menu contains two sections navigated with **Left** and **Right**:
 
-- **ATTIVE** — missioni disponibili, iniziate o fallite;
-- **COMPLETATE** — missioni concluse.
+- **ACTIVE** — available, started, or failed quests;
+- **COMPLETED** — completed quests.
 
-Per ogni missione vengono mostrati:
+Each quest displays:
 
-- titolo e stato;
-- descrizione;
-- obiettivo corrente;
-- luogo consigliato;
-- avanzamento numerico;
-- barra grafica;
-- ricompensa;
-- mod di provenienza.
+- title and status;
+- description;
+- current objective;
+- recommended location;
+- numerical progress;
+- progress bar;
+- reward;
+- source mod.
 
 ---
 
 ## Repel Reuse
 
-Quando l’effetto di un Repellente termina, viene mostrata automaticamente una scelta:
+When a Repel's effect expires, a choice is displayed automatically:
 
-- **YES** — consuma e attiva immediatamente un altro Repellente;
-- **NO** — continua senza Repellente.
+- **YES** — immediately consumes and activates another Repel;
+- **NO** — continues without using another Repel.
 
-La scelta non viene mostrata quando non sono rimasti Repellenti nello zaino.
+The prompt is not displayed when no Repels remain in the Bag.
 
-### Priorità di selezione
+### Repel Selection Priority
 
-La mod prova prima a utilizzare lo stesso tipo di Repellente appena terminato. Se è esaurito, sceglie automaticamente in questo ordine:
+The mod first attempts to use the same type of Repel that just expired. If none remain, it automatically selects one in this order:
 
 1. **MAX REPEL**
 2. **SUPER REPEL**
@@ -272,27 +272,27 @@ La mod prova prima a utilizzare lo stesso tipo di Repellente appena terminato. S
 
 ## Reusable Machines
 
-Migliora il funzionamento di MT e MN:
+Improves how TMs and HMs work:
 
-- le MT non vengono più consumate quando insegnano una mossa;
-- le mosse MN possono essere dimenticate;
-- il nome della mossa associata a ogni MT o MN viene mostrato direttamente nello zaino.
+- TMs are no longer consumed when teaching a move;
+- HM moves can be forgotten;
+- the move assigned to each TM or HM is displayed directly in the Bag.
 
 ---
 
 ## Summon
 
-Aggiunge la voce **SUMMON** al menu Start.
+Adds a **SUMMON** option to the Start menu.
 
-Permette di inserire un numero del Pokédex e iniziare immediatamente un normale incontro selvatico con il Pokémon corrispondente.
+It allows you to enter a Pokédex number and immediately begin a normal wild encounter with the corresponding Pokémon.
 
-### Utilizzo
+### Usage
 
-1. Seleziona **SUMMON**.
-2. Inserisci il numero del Pokédex.
-3. Controlla il nome del Pokémon mostrato nella finestra.
-4. Seleziona **OK**.
-5. Inizia l’incontro selvatico.
+1. Select **SUMMON**.
+2. Enter the Pokédex number.
+3. Check the Pokémon name displayed in the window.
+4. Select **OK**.
+5. Begin the wild encounter.
 
 ---
 
@@ -300,238 +300,238 @@ Permette di inserire un numero del Pokédex e iniziare immediatamente un normale
 
 ## The Three-Stone Covenant
 
-La missione diventa disponibile dopo aver sconfitto **Lt. Surge** e ottenuto la **Medaglia Tuono**.
+The quest becomes available after defeating **Lt. Surge** and obtaining the **Thunder Badge**.
 
-Uscendo dalla Palestra di Aranciopoli, **Dr. Vela** appare vicino all’ingresso.
+After leaving the Vermilion City Gym, **Dr. Vela** appears near the entrance.
 
-### L’avventura
+### The Adventure
 
-1. **Prova del Fulmine — Aranciopoli**  
-   Risolvi un enigma con tre relè elettrici e affronta il **Volt Warden**.
+1. **Trial of Lightning — Vermilion City**  
+   Solve a puzzle involving three electrical relays and face the **Volt Warden**.
 
-2. **Prova dell’Acqua — Celestopoli**  
-   Raggiungi il **Tide Keeper**, bilancia tre valvole e affronta una squadra acquatica.
+2. **Trial of Water — Cerulean City**  
+   Reach the **Tide Keeper**, balance three valves, and face a Water-type team.
 
-3. **Prova del Fuoco — Azzurropoli**  
-   Stabilizza una fornace a fiamma blu e sconfiggi l’**Ember Keeper**.
+3. **Trial of Fire — Celadon City**  
+   Stabilize a blue-flame furnace and defeat the **Ember Keeper**.
 
-4. **Patto finale — Aranciopoli**  
-   Riporta i tre nuclei a Dr. Vela, completa l’ultimo enigma e affronta il **Triad Master**.
+4. **Final Covenant — Vermilion City**  
+   Return the three cores to Dr. Vela, complete the final puzzle, and face the **Triad Master**.
 
-La squadra del Triad Master comprende:
+The Triad Master's team includes:
 
 - Eevee;
 - Jolteon;
 - Vaporeon;
 - Flareon.
 
-### Ricompense
+### Rewards
 
-Al termine della missione ricevi:
+After completing the quest, you receive:
 
 - Jolteon;
 - Vaporeon;
 - Flareon;
-- **Eevee Emblem**, un oggetto chiave esclusivo.
+- the **Eevee Emblem**, an exclusive Key Item.
 
 ---
 
 ## The Mirage of Mew
 
-Un’avventura disponibile dopo la **Medaglia Terra**, ambientata tra:
+An adventure available after obtaining the **Earth Badge**, taking place across:
 
-- Villa Pokémon;
-- Torre Pokémon;
-- Foresta Smeraldo;
-- Isole Spumarine.
+- Pokémon Mansion;
+- Pokémon Tower;
+- Viridian Forest;
+- Seafoam Islands.
 
-Nel menu Start compare la nuova voce **MEW MYSTERY**, dalla quale puoi controllare:
+A new **MEW MYSTERY** option appears in the Start menu, where you can check:
 
-- obiettivo corrente;
-- reperti trovati;
-- indizi raccolti.
+- the current objective;
+- recovered artifacts;
+- collected clues.
 
-### Struttura dell’avventura
+### Adventure Structure
 
-1. **Laboratorio di Cinnabar**  
-   Parla con lo scienziato nella stanza di Metronomo. Il normale regalo di TM35 viene preservato: se non l’hai ancora ricevuta, dovrai parlargli nuovamente per iniziare la quest.
+1. **Cinnabar Laboratory**  
+   Speak with the scientist in the Metronome room. His normal TM35 gift is preserved: if you have not received it yet, you must speak with him again to begin the quest.
 
-2. **Villa Pokémon B1F**  
-   Scopri un laboratorio bruciato collegato al Progetto Mew, affronta il **Mansion Warden** e recupera il **Gene Shard**.
+2. **Pokémon Mansion B1F**  
+   Discover a burned laboratory connected to Project Mew, face the **Mansion Warden**, and recover the **Gene Shard**.
 
-3. **Torre Pokémon 7F**  
-   Rispondi a tre domande sul passato e sulla libertà di Mew. Dopo l’enigma affronta il **Dream Keeper** e ottieni lo **Spirit Echo**.
+3. **Pokémon Tower 7F**  
+   Answer three questions about Mew's past and freedom. After solving the puzzle, face the **Dream Keeper** and obtain the **Spirit Echo**.
 
-4. **Foresta Smeraldo**  
-   Interpreta correttamente una serie di tracce senza disturbare i Pokémon selvatici. Affronta il **Forest Guardian** e recupera il **Life Seed**.
+4. **Viridian Forest**  
+   Correctly interpret a series of tracks without disturbing the wild Pokémon. Face the **Forest Guardian** and recover the **Life Seed**.
 
-5. **Ritorno a Cinnabar**  
-   Lo scienziato unisce i tre reperti e crea l’oggetto chiave esclusivo **Aura Charm**.
+5. **Return to Cinnabar**  
+   The scientist combines the three artifacts and creates the exclusive Key Item known as the **Aura Charm**.
 
-6. **Isole Spumarine B4F**  
-   L’Aura Charm apre una camera nascosta dalla quale puoi chiamare e affrontare Mew.
+6. **Seafoam Islands B4F**  
+   The Aura Charm opens a hidden chamber where Mew can be summoned and challenged.
 
-### Incontro con Mew
+### Encountering Mew
 
-Mew viene affrontato in una vera battaglia selvatica.
+Mew is encountered in a genuine wild battle.
 
-Se Mew:
+If Mew:
 
-- viene sconfitto;
-- fugge;
-- oppure il giocatore decide di scappare;
+- is defeated;
+- flees;
+- or the player decides to run away;
 
-l’**Aura Charm** rimane attivo e l’incontro può essere ripetuto tornando alle Isole Spumarine B4F.
+the **Aura Charm** remains active, and the encounter can be repeated by returning to Seafoam Islands B4F.
 
 ---
 
 ## New Game Plus
 
-Aggiunge una modalità **New Game Plus** post-Lega con:
+Adds a post-League **New Game Plus** mode featuring:
 
-- Allenatori più forti;
-- Pokémon selvatici potenziati;
-- rematch dei Capipalestra;
-- boss opzionali;
-- nuove ricompense;
-- cicli di difficoltà ripetibili.
+- stronger Trainers;
+- stronger wild Pokémon;
+- Gym Leader rematches;
+- optional bosses;
+- new rewards;
+- repeatable difficulty cycles.
 
-Dopo aver sconfitto la Lega e il Campione, nel menu Start compare la voce **NG PLUS**.
+After defeating the Pokémon League and the Champion, a new **NG PLUS** option appears in the Start menu.
 
-### Progressi mantenuti
+### Preserved Progress
 
-Restano invariati:
+The following remain unchanged:
 
 - Pokédex;
-- squadra;
-- Pokémon nei box;
-- livelli;
-- mosse;
-- DV ed EV;
-- inventario;
-- oggetti chiave;
-- denaro;
-- medaglie;
-- progresso della storia.
+- party;
+- Pokémon stored in Boxes;
+- levels;
+- moves;
+- DVs and EVs;
+- inventory;
+- Key Items;
+- money;
+- Badges;
+- story progress.
 
-### Allenatori
+### Trainers
 
-Dopo l’attivazione:
+After activation:
 
-- tutti gli Allenatori normali ricevono almeno 20 livelli aggiuntivi;
-- la loro squadra viene adattata anche al livello più alto del giocatore;
-- i loro Pokémon evolvono quando il nuovo livello soddisfa le regole evolutive;
-- ogni ciclo successivo aggiunge altri 5 livelli;
-- il livello massimo resta 100.
+- all regular Trainers receive at least 20 additional levels;
+- their teams also scale based on the player's highest-level Pokémon;
+- Trainer Pokémon evolve when their new level meets the normal evolution requirements;
+- every subsequent cycle adds another 5 levels;
+- the maximum level remains 100.
 
-### Pokémon selvatici
+### Wild Pokémon
 
-Gli incontri naturali:
+Natural encounters:
 
-- ricevono almeno 15 livelli aggiuntivi;
-- vengono avvicinati al livello della squadra;
-- mantengono specie e probabilità originali della zona;
-- ottengono altri 3 livelli per ogni ciclo NG Plus.
+- receive at least 15 additional levels;
+- are brought closer to the party's level;
+- preserve the area's original species and encounter rates;
+- gain another 3 levels for each NG Plus cycle.
 
-### Rematch dei Capipalestra
+### Gym Leader Rematches
 
-Ogni Capopalestra può essere affrontato nuovamente.
+Every Gym Leader can be challenged again.
 
-La prima vittoria di ogni ciclo assegna denaro e ricompense, tra cui:
+The first victory of each cycle awards money and rewards such as:
 
-- Caramelle Rare;
-- PP-Su;
-- Revitalizzanti Max;
-- Elisir Max;
-- Ripristino Totale.
+- Rare Candies;
+- PP Ups;
+- Max Revives;
+- Max Elixirs;
+- Full Restores.
 
-### Boss opzionali
+### Optional Bosses
 
-Dopo aver sconfitto tutti e otto i Capipalestra si sbloccano progressivamente:
+After defeating all eight Gym Leaders, the following bosses are unlocked progressively:
 
 1. **Blue Prime**
 2. **Dragon Master**
 3. **Red Echo**
 
-La prima vittoria assegna anche una **Master Ball**.
+The first victory also awards a **Master Ball**.
 
-### Cicli infiniti
+### Infinite Cycles
 
-Dopo aver completato tutti i rematch e sconfitto i tre boss compare la voce **NEXT CYCLE**.
+After completing all rematches and defeating the three bosses, the **NEXT CYCLE** option appears.
 
-Avviando il ciclo successivo:
+Starting the next cycle:
 
-- i progressi delle sfide vengono azzerati;
-- Allenatori e squadre dei rematch guadagnano altri 5 livelli;
-- i Pokémon selvatici guadagnano altri 3 livelli;
-- ricevi 50.000 Pokédollari;
-- ricevi tre Caramelle Rare;
-- il resto del salvataggio rimane intatto.
+- resets challenge progress;
+- gives Trainers and rematch teams another 5 levels;
+- gives wild Pokémon another 3 levels;
+- awards 50,000 Pokédollars;
+- awards three Rare Candies;
+- leaves the rest of the save file unchanged.
 
 ---
 
 ## Rocket Gym Ambushes
 
-Dopo aver sconfitto un Capopalestra e ottenuto la relativa medaglia:
+After defeating a Gym Leader and obtaining the corresponding Badge:
 
-1. esci dalla Palestra;
-2. un membro del Team Rocket appare vicino all’ingresso;
-3. parlandogli inizia una nuova lotta;
-4. dopo la vittoria puoi scegliere e reclutare uno dei Pokémon della sua squadra.
+1. leave the Gym;
+2. a Team Rocket member appears near the entrance;
+3. speaking to them starts a new battle;
+4. after winning, you can choose and recruit one Pokémon from their team.
 
 ---
 
 ## Team Rocket Returns
 
-Una missione post-Giovanni ambientata in più città, con:
+A post-Giovanni quest spanning multiple cities, featuring:
 
-- indagini;
-- documenti segreti;
-- lotte adattate al livello del giocatore;
-- un laboratorio nascosto;
-- ricompense importanti.
+- investigations;
+- secret documents;
+- battles scaled to the player's level;
+- a hidden laboratory;
+- major rewards.
 
-### La storia
+### The Story
 
-Nel ristorante di Azzurropoli, il vecchio giocatore d’azzardo rivela di essere un informatore sotto copertura.
+At the Celadon City restaurant, the old gambler reveals that he is an undercover informant.
 
-Giovanni è scomparso, ma una nuova cellula del Team Rocket sta ricostruendo l’organizzazione.
+Giovanni has disappeared, but a new Team Rocket cell is rebuilding the organization.
 
-L’indagine conduce in tre città:
+The investigation leads to three cities:
 
-- **Lavandonia** — una bambina ha trovato una pagina nera vicino alla Torre Pokémon;
-- **Zafferanopoli** — una dipendente della Silph possiede un memorandum sulle spedizioni segrete;
-- **Aranciopoli** — il registro del porto documenta alcuni carichi notturni diretti ad Azzurropoli.
+- **Lavender Town** — a young girl found a black page near Pokémon Tower;
+- **Saffron City** — a Silph employee possesses a memorandum concerning secret shipments;
+- **Vermilion City** — the harbor log documents nighttime cargo shipments headed toward Celadon City.
 
-Ogni indizio è protetto da un nuovo Allenatore Rocket.
+Each clue is protected by a new Rocket Trainer.
 
-I documenti recuperati vengono conservati nello zaino come oggetti chiave.
+The recovered documents are stored in the Bag as Key Items.
 
-### Il laboratorio clandestino
+### The Hidden Laboratory
 
-Dopo aver riportato i tre documenti all’informatore, ricevi il **BLACK PASS**.
+After returning all three documents to the informant, you receive the **BLACK PASS**.
 
-Al piano B4F del Rifugio Rocket, sotto il Game Corner, si apre un passaggio nascosto verso il laboratorio.
+On B4F of the Rocket Hideout beneath the Game Corner, a hidden passage opens toward the laboratory.
 
-Un terminale permette di affrontare progressivamente:
+A terminal allows you to challenge the following opponents progressively:
 
 1. **Security A**
 2. **Security B**
 3. **Dr. Miro**
 4. **Commander Nova**
 
-### Ricompense
+### Rewards
 
-Dopo aver sconfitto Commander Nova ricevi:
+After defeating Commander Nova, you receive:
 
-- **Porygon**, al livello 35 o vicino al livello attuale della squadra;
-- **Master Ball**;
-- **Rocket Core**, un oggetto chiave esclusivo e trofeo della missione.
+- **Porygon**, at level 35 or close to the party's current level;
+- a **Master Ball**;
+- the **Rocket Core**, an exclusive Key Item and quest trophy.
 
 ---
 
 ## Download
 
-Scarica tutte le mod dal repository ufficiale:
+Download all mods from the official repository:
 
 **[github.com/FAFF0x/gen1recomp](https://github.com/FAFF0x/gen1recomp)**
