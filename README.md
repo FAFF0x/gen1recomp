@@ -30,6 +30,7 @@ All mods are available in the repository:
 - [Quest Mods](#quest-mods)
   - [The Three-Stone Covenant](#the-three-stone-covenant)
   - [The Mirage of Mew](#the-mirage-of-mew)
+  - [The Sixth Bell](#the-sixth-bell)
   - [New Game Plus](#new-game-plus)
   - [Rocket Gym Ambushes](#rocket-gym-ambushes)
   - [Team Rocket Returns](#team-rocket-returns)
@@ -438,6 +439,22 @@ If Mew:
 - or the player decides to run away;
 
 the **Aura Charm** remains active, and the encounter can be repeated by returning to Seafoam Islands B4F.
+
+---
+
+## The Sixth Bell
+
+### Quest Content
+
+1. The quest activates automatically once you have obtained at least six Badges.
+2. An unsettling message directs you toward Lavender Town.
+3. The young girl near Pokémon Tower becomes the main character of the quest.
+4. Lavender Town and Pokémon Tower temporarily take on a faded, ghostly color palette.
+5. Inside Pokémon Tower, you must complete three trials.
+
+### Reward
+
+- **Gengar**
 
 ---
 
