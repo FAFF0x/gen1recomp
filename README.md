@@ -1,4 +1,4 @@
-[README_EN.md](https://github.com/user-attachments/files/30620338/README_EN.md)
+
 # Pokémon Recomp
 
 A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
@@ -18,6 +18,7 @@ All mods are available in the repository:
   - [EXP Share Modes](#exp-share-modes)
   - [Guaranteed Catch](#guaranteed-catch)
   - [HM Anywhere](#hm-anywhere)
+  - [Item Shortcut](#item-shortcut)
   - [Modern Bag](#modern-bag)
   - [Move Inspector](#move-inspector)
   - [Moves Manager](#moves-manager)
@@ -45,17 +46,21 @@ Press **SELECT** while exploring the overworld to start an encounter with an unc
 
 ## Catch Helper
 
-Adds useful information during wild encounters:
+Shows catch chances during wild battles and displays a small Poké Ball next to enemy Pokémon that are already owned in the Pokédex.
 
-- displays the catch probability in real time;
-- uses the same HP, status conditions, catch rate, and Ball parameters used by the game engine;
-- displays a small Poké Ball next to the name of Pokémon already owned in the Pokédex;
-- supports the Safari Zone, including the effects of Bait and Rock on the catch rate.
+### Features
 
-### Example
+- Catch probability updated in real time.
+- Calculations use the same current HP, status condition, species catch rate, and Ball parameters used by the game engine.
+- A small Poké Ball appears next to the Pokémon's name when that species is already owned in the Pokédex.
+- Full Safari Zone support, including catch-rate changes caused by Bait and Rock.
+
+### Catch-Rate Display
+
+For example, the battle interface may display:
 
 ```text
-P18 G27 U36
+P18G27U36
 ```
 
 | Code | Ball |
@@ -65,7 +70,24 @@ P18 G27 U36
 | `U` | Ultra Ball |
 | `S` | Safari Ball |
 
-The number represents the catch success percentage.
+The number following each letter represents that Ball's catch success percentage.
+
+### Display Options
+
+Two independent toggles are available under:
+
+```text
+MODS → Catch Helper → OPTIONS
+```
+
+This allows you to choose between four display configurations:
+
+- Poké Ball icon and catch-rate text visible;
+- Poké Ball icon only;
+- catch-rate text only;
+- both elements hidden.
+
+The **OPTIONS** menu also allows you to adjust the Poké Ball icon's **X** and **Y** position.
 
 ---
 
@@ -140,6 +162,40 @@ You only need to have the corresponding HM in your Bag. The required Badges are 
 - **STRENGTH** — press `A` while facing a boulder to activate Strength and begin moving it.
 - **FLASH** — open the Start menu, select the new **HM** submenu, and choose **FLASH**.
 - **FLY** — open the Start menu, select the new **HM** submenu, and choose **FLY**.
+
+---
+
+## Item Shortcut
+
+Press **R1 / I** in the overworld to open a shortcut menu containing five item slots.
+
+### Slot Actions
+
+Each assigned slot provides the following actions:
+
+- **USE** — immediately uses the assigned item;
+- **SET FAST** — marks the item for quick use;
+- **CLEAR** — removes the item from the slot.
+
+### Assigning an Item
+
+Items are assigned directly from the Bag:
+
+```text
+BAG → Select Item → ASSIGN SHORTCUT → Choose Slot 1–5
+```
+
+One of the five slots can be designated as the **FAST** slot.
+
+Press **K1 / K** in the overworld to use the assigned **FAST ITEM** immediately.
+
+### Controls
+
+The shortcut buttons can be remapped from:
+
+```text
+START → MOD → ITEM SHORTCUT → OPTIONS
+```
 
 ---
 
