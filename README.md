@@ -1,7 +1,7 @@
 
 # Pokémon Recomp
 
-A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
+A collection of mods for the **original Pokémon Red/Blue/Yellow** designed to make the game more modern, accessible, and content-rich.
 
 All mods are available in the repository:
 
@@ -33,6 +33,7 @@ All mods are available in the repository:
   - [The Sixth Bell](#the-sixth-bell)
   - [The Stolen Fossil](#the-stolen-fossil)
   - [Whispers Beneath Cerulean](#whispers-beneath-cerulean)
+  - [The Abandoned Cabin](#the-abandoned-cabin)
   - [New Game Plus](#new-game-plus)
   - [Rocket Gym Ambushes](#rocket-gym-ambushes)
   - [Team Rocket Returns](#team-rocket-returns)
@@ -492,6 +493,22 @@ Choose one of the following young Pokémon:
 ### Reward
 
 - **Starmie** with maximum DVs and EVs
+
+---
+
+## The Abandoned Cabin
+
+### Quest Content
+
+1. The quest activates automatically after obtaining the **Thunder Badge**.
+2. A sailor in Vermilion City reports strange lights coming from Route 11.
+3. You must explore an abandoned cabin surrounded by a nighttime atmosphere.
+4. Inside, you must battle Electric-type Pokémon and solve a puzzle involving three generators.
+5. The quest ends in a secret Team Rocket laboratory, where you face a powered-up **Magneton**.
+
+### Reward
+
+- **Electabuzz** with maximum DVs and EVs
 
 ---
 
