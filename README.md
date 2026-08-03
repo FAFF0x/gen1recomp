@@ -32,6 +32,7 @@ All mods are available in the repository:
   - [The Mirage of Mew](#the-mirage-of-mew)
   - [The Sixth Bell](#the-sixth-bell)
   - [The Stolen Fossil](#the-stolen-fossil)
+  - [Whispers Beneath Cerulean](#whispers-beneath-cerulean)
   - [New Game Plus](#new-game-plus)
   - [Rocket Gym Ambushes](#rocket-gym-ambushes)
   - [Team Rocket Returns](#team-rocket-returns)
@@ -475,6 +476,22 @@ Choose one of the following young Pokémon:
 
 - **Omanyte**
 - **Kabuto**
+
+---
+
+## Whispers Beneath Cerulean
+
+### Quest Content
+
+1. The quest activates automatically after obtaining the **Cascade Badge**.
+2. Strange noises coming from the underground waterways draw attention to Cerulean City.
+3. You must explore a new water-themed dungeon beneath the city.
+4. Inside the canals, you must activate three valves and battle contaminated Water-type Pokémon.
+5. The quest culminates in a battle against a powerful contaminated **Seaking**.
+
+### Reward
+
+- **Starmie** with maximum DVs and EVs
 
 ---
 
