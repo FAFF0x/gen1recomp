@@ -1,7 +1,7 @@
 
 # Pokémon Recomp
 
-A collection of mods for the **original Pokémon Red/Blue/Yellow** designed to make the game more modern, accessible, and content-rich.
+A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
 
 All mods are available in the repository:
 
@@ -203,7 +203,7 @@ START → MOD → ITEM SHORTCUT → OPTIONS
 
 ---
 
-## Modern Bag
+## Modern Bag v1.3.0
 
 Transforms the Bag into a modern inventory divided into six pockets, navigated with **Left** and **Right**.
 
@@ -219,6 +219,39 @@ It also removes the original 20-item-type capacity limit.
 | **BATTLE** | X items, Dire Hit, Guard Spec., and Poké Doll. |
 | **KEY ITEMS** | Bicycle, Fishing Rods, Poké Flute, keys, cards, and other important items. |
 | **OTHER** | Evolution Stones, Repels, Escape Rope, fossils, and general-purpose items. |
+
+### Automatic Sorting
+
+Items are sorted automatically whenever the Bag is opened.
+
+The sorting order is based on:
+
+1. pocket;
+2. item name.
+
+TMs and HMs are sorted numerically, with HMs listed before TMs.
+
+The automatic sorting is refreshed whenever you obtain a new type of item.
+
+Manual reordering with **SELECT** remains available during the current play session.
+
+### Quick Search
+
+Press **START** while inside the Bag to open the search screen.
+
+#### Controls
+
+- **D-pad** — move across the on-screen keyboard;
+- **A** — enter a character;
+- **B** — delete a character or exit;
+- **SELECT** — clear the current search;
+- **START** or **GO** — display the search results.
+
+The search checks every Bag pocket.
+
+Selecting a result automatically returns you to the correct pocket with the matching item highlighted.
+
+The search also correctly recognizes item names containing special characters, such as **POKé BALL**.
 
 ---
 
