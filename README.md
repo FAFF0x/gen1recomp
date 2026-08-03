@@ -22,6 +22,7 @@ All mods are available in the repository:
   - [Modern Bag](#modern-bag)
   - [Move Inspector](#move-inspector)
   - [Moves Manager](#moves-manager)
+  - [Pokédex Plus](#pokédex-plus)
   - [Trade Evolution Fix](#trade-evolution-fix)
   - [Quest System](#quest-system)
   - [Repel Reuse](#repel-reuse)
@@ -319,6 +320,27 @@ The initial move memory is rebuilt using:
 - currently known moves;
 - starting moves from the evolutionary line;
 - level-up moves learned up to the Pokémon's current level.
+
+---
+
+## Pokédex Plus
+
+Pokédex Plus replaces the original Pokédex with a more complete and practical version.
+
+For each Pokémon, it allows you to view general information, base stats, habitats, encounter rates, evolutions, and moves learned by leveling up.
+
+### Features
+
+- Caught Pokémon indicator.
+- Automatic scanning of the current party and every PC Box.
+- **STATS** tab showing type, base stats, and total base stat value.
+- **HABITAT** tab showing areas, encounter methods, levels, and encounter rates.
+- Direct access to the area map.
+- **EVOLUTION** tab showing the evolution chain and evolution method.
+- **LEVEL MOVES** tab showing moves learned by level and their details.
+- Quick search by pressing **START**.
+- Search Pokémon by name or type.
+- Compatibility with Pokémon and encounters added by other mods.
 
 ---
 
