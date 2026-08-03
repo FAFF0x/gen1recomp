@@ -31,6 +31,7 @@ All mods are available in the repository:
   - [The Three-Stone Covenant](#the-three-stone-covenant)
   - [The Mirage of Mew](#the-mirage-of-mew)
   - [The Sixth Bell](#the-sixth-bell)
+  - [The Stolen Fossil](#the-stolen-fossil)
   - [New Game Plus](#new-game-plus)
   - [Rocket Gym Ambushes](#rocket-gym-ambushes)
   - [Team Rocket Returns](#team-rocket-returns)
@@ -455,6 +456,25 @@ the **Aura Charm** remains active, and the encounter can be repeated by returnin
 ### Reward
 
 - **Gengar**
+
+---
+
+## The Stolen Fossil
+
+### Quest Content
+
+1. The quest activates automatically after obtaining the **Boulder Badge**.
+2. A guide at the Pewter Museum reports the theft of an important fossil.
+3. You must question several characters to gather clues.
+4. The trail leads to Mt. Moon, where a group of thieves is negotiating with Team Rocket.
+5. The quest combines exploration, investigation, and a final battle.
+
+### Reward
+
+Choose one of the following young Pokémon:
+
+- **Omanyte**
+- **Kabuto**
 
 ---
 
