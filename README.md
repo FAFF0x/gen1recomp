@@ -171,7 +171,14 @@ You only need to have the corresponding HM in your Bag. The required Badges are 
 
 ## Item Shortcut
 
-Press **R1 / I** in the overworld to open a shortcut menu containing five item slots.
+Press the default shortcut button in the overworld to open a menu containing five item slots.
+
+### Default Controls
+
+| Action | Keyboard | Controller |
+|---|---|---|
+| Open Shortcut Menu | `I` | `Y` |
+| Use FAST Item | `K` | `X` |
 
 ### Slot Actions
 
@@ -191,15 +198,18 @@ BAG → Select Item → ASSIGN SHORTCUT → Choose Slot 1–5
 
 One of the five slots can be designated as the **FAST** slot.
 
-Press **K1 / K** in the overworld to use the assigned **FAST ITEM** immediately.
+Press the assigned **FAST Item** button in the overworld to use that item immediately.
 
-### Controls
+### Control Remapping
 
-The shortcut buttons can be remapped from:
+Both shortcut buttons can be remapped directly from the **Item Shortcut** menu.
 
-```text
-START → MOD → ITEM SHORTCUT → OPTIONS
-```
+Open the menu using:
+
+- **Keyboard:** `I`
+- **Controller:** `Y`
+
+Then select **OPTIONS** to change the controls.
 
 ---
 
