@@ -35,6 +35,10 @@ All mods are available in the repository:
   - [The Stolen Fossil](#the-stolen-fossil)
   - [Whispers Beneath Cerulean](#whispers-beneath-cerulean)
   - [The Abandoned Cabin](#the-abandoned-cabin)
+  - [The Black Flower](#the-black-flower)
+  - [Poachers in the Safari Zone](#poachers-in-the-safari-zone)
+  - [Ashes of Cinnabar](#ashes-of-cinnabar)
+  - [The Empty Throne](#the-empty-throne)
   - [New Game Plus](#new-game-plus)
   - [Rocket Gym Ambushes](#rocket-gym-ambushes)
   - [Team Rocket Returns](#team-rocket-returns)
@@ -574,6 +578,99 @@ Choose one of the following young Pokémon:
 ### Reward
 
 - **Electabuzz** with maximum DVs and EVs
+
+---
+
+## The Black Flower
+
+The quest becomes available after obtaining the **Rainbow Badge**.
+
+A black flower has begun growing in Celadon City's secret garden, draining energy from the city's Grass-type Pokémon. Erika asks for your help in discovering its origin.
+
+### Gameplay
+
+- Explore a plant-covered maze.
+- Navigate areas filled with dangerous spores.
+- Discover hidden paths.
+- Battle possessed Pokémon.
+
+### Boss
+
+- **Victreebel**
+
+### Reward
+
+- **Vileplume** with maximum DVs and EVs
+
+---
+
+## Poachers in the Safari Zone
+
+The quest becomes available after obtaining the **Soul Badge**.
+
+A group of poachers has illegally entered the Safari Zone to capture rare Pokémon. You must follow their trail without being able to use your party normally.
+
+### Gameplay
+
+- Pursue the poachers through the Safari Zone.
+- Use stealth to avoid detection.
+- Overcome traps.
+- Battle using freed Safari Pokémon.
+
+### Reward
+
+Choose one of the following Pokémon, each with maximum DVs and EVs:
+
+- **Kangaskhan**
+- **Tauros**
+- **Scyther** or **Pinsir**
+
+---
+
+## Ashes of Cinnabar
+
+The quest becomes available after obtaining the **Volcano Badge**.
+
+Following an eruption in an old laboratory beneath Pokémon Mansion, artificial creatures begin appearing across Cinnabar Island.
+
+### Gameplay
+
+- Explore a burning laboratory.
+- Unlock security doors.
+- Recover secret documents.
+- Complete objectives while an environmental timer is active.
+
+### Boss
+
+- **Ditto**, which repeatedly transforms into members of the player's party
+
+### Reward
+
+- **Arcanine** with maximum DVs and EVs
+
+---
+
+## The Empty Throne
+
+The quest becomes available after obtaining the **Earth Badge**.
+
+After Giovanni's disappearance, a new figure attempts to seize control of the remaining Team Rocket forces beneath Viridian Gym.
+
+### Gameplay
+
+- Explore a final Team Rocket dungeon.
+- Battle elite Rocket Trainers.
+- Make moral choices.
+- Survive multiple consecutive battles.
+
+### Boss
+
+- A new **Rocket Commander** with a full high-level team
+
+### Rewards
+
+- **Porygon** with maximum DVs and EVs
+- **Master Ball**
 
 ---
 
