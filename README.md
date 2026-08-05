@@ -39,6 +39,7 @@ All mods are available in the repository:
   - [Poachers in the Safari Zone](#poachers-in-the-safari-zone)
   - [Ashes of Cinnabar](#ashes-of-cinnabar)
   - [The Empty Throne](#the-empty-throne)
+  - [Echoes Beyond the Fog](#echoes-beyond-the-fog)
   - [New Game Plus](#new-game-plus)
   - [Rocket Gym Ambushes](#rocket-gym-ambushes)
   - [Team Rocket Returns](#team-rocket-returns)
@@ -715,6 +716,54 @@ After Giovanni's disappearance, a new figure attempts to seize control of the re
 
 - **Porygon** with maximum DVs and EVs
 - **Master Ball**
+
+---
+
+## Echoes Beyond the Fog
+
+### Quest Content
+
+The quest becomes available after helping Bill and obtaining the **Soul Badge**.
+
+Bill detects an unknown Pokémon call coming from an abandoned lighthouse beyond the cape.
+
+You travel through the three-level **Cape Signal Observatory** and restore its damaged equipment.
+
+Your objectives include:
+
+- repairing the generator;
+- studying the tidal records;
+- reproducing the correct **LOW-HIGH-LOW** beacon signal.
+
+The signal opens a hidden route into the three-level **Fogbound Caverns**.
+
+Inside the caverns, you explore:
+
+- flooded ruins;
+- ancient relay chambers;
+- areas controlled by a **Black Tide scout**.
+
+After recovering the **Mag-Key**, you gain access to the three-level **Black Tide Hideout**.
+
+The hideout contains:
+
+- warehouses;
+- laboratories;
+- specimen tanks;
+- a fortified control room.
+
+You must disable three resonance anchors and stop **Captain Morrow** from capturing the giant Dragonite.
+
+The giant Dragonite answers Bill's beacon because it resembles the call of another member of its species.
+
+After the capture system is destroyed, the giant Dragonite returns freely to the sea.
+
+### Reward
+
+- **Perfect Dragonite**
+  - Level 50
+  - Maximum DVs
+  - Maximum Stat Experience
 
 ---
 
