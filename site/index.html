@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAFF0x Gen 1 Recomp Mod Index</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #10131a; color: #f4f6fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { padding: 2rem 1rem 1rem; max-width: 1100px; margin: auto; }
+    h1 { margin: 0 0 .5rem; }
+    .controls { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1rem; }
+    input, select { padding: .75rem; border-radius: .6rem; border: 1px solid #485064; background: #1a2030; color: inherit; }
+    input { flex: 1 1 260px; }
+    main { max-width: 1100px; margin: auto; padding: 1rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+    article { background: #181d29; border: 1px solid #30384a; border-radius: .85rem; padding: 1rem; display: flex; flex-direction: column; gap: .7rem; }
+    h2 { margin: 0; font-size: 1.15rem; }
+    p { margin: 0; color: #cbd2df; line-height: 1.45; }
+    .meta { color: #9fa9ba; font-size: .9rem; }
+    .tags { display: flex; gap: .4rem; flex-wrap: wrap; }
+    .tag { font-size: .75rem; border: 1px solid #53607a; border-radius: 999px; padding: .2rem .5rem; }
+    .links { margin-top: auto; display: flex; gap: .6rem; }
+    a { color: #93c5fd; }
+    .button { display: inline-block; padding: .55rem .8rem; background: #2563eb; color: white; text-decoration: none; border-radius: .5rem; font-weight: 650; }
+    #status { color: #aab3c2; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FAFF0x Gen 1 Recomp Mod Index</h1>
+    <p id="status">Loading mods…</p>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search mods…" aria-label="Search mods">
+      <select id="category" aria-label="Filter by category"><option value="">All categories</option></select>
+    </div>
+  </header>
+  <main id="mods"></main>
+  <script>
+    const state = { mods: [], query: '', category: '' };
+    const list = document.querySelector('#mods');
+    const status = document.querySelector('#status');
+    const search = document.querySelector('#search');
+    const category = document.querySelector('#category');
+
+    function render() {
+      const query = state.query.toLowerCase();
+      const visible = state.mods.filter(mod => {
+        const haystack = `${mod.title} ${mod.id} ${mod.author} ${mod.summary}`.toLowerCase();
+        return (!query || haystack.includes(query)) && (!state.category || mod.categories.includes(state.category));
+      });
+      status.textContent = `${visible.length} of ${state.mods.length} mods`;
+      list.replaceChildren(...visible.map(mod => {
+        const card = document.createElement('article');
+        card.innerHTML = `
+          <h2>${escapeHtml(mod.title)} <span class="meta">v${escapeHtml(mod.version)}</span></h2>
+          <div class="meta">${escapeHtml(mod.author)} · ${escapeHtml(mod.id)}</div>
+          <p>${escapeHtml(mod.summary || '')}</p>
+          <div class="tags">${mod.categories.map(item => `<span class="tag">${escapeHtml(item)}</span>`).join('')}</div>
+          <div class="links">
+            <a class="button" href="${encodeURI(mod.downloadURL)}">Download ZIP</a>
+            <a href="${encodeURI(mod.repo)}">Source</a>
+          </div>`;
+        return card;
+      }));
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+    }
+
+    search.addEventListener('input', event => { state.query = event.target.value; render(); });
+    category.addEventListener('change', event => { state.category = event.target.value; render(); });
+
+    fetch('./data/index.json')
+      .then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+      .then(index => {
+        state.mods = index.mods || [];
+        for (const item of index.categories || []) {
+          const option = document.createElement('option');
+          option.value = option.textContent = item;
+          category.append(option);
+        }
+        render();
+      })
+      .catch(error => { status.textContent = `Could not load index: ${error.message}`; });
+  </script>
+</body>
+</html>
