@@ -1,7 +1,7 @@
 
 # Pokémon Recomp
 
-A collection of mods for the **original Pokémon ** designed to make the game more modern, accessible, and content-rich.
+A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
 
 All mods are available in the repository:
 
@@ -218,7 +218,9 @@ Then select **OPTIONS** to change the controls.
 
 ---
 
-## Modern Bag v1.4.0
+## Modern Bag
+
+**Current version: v1.4.0**
 
 Transforms the Bag into a modern inventory divided into multiple pockets, navigated with **Left** and **Right**.
 
