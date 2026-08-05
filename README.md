@@ -28,6 +28,7 @@ All mods are available in the repository:
   - [Repel Reuse](#repel-reuse)
   - [Reusable Machines](#reusable-machines)
   - [Summon](#summon)
+  - [Universal Free TM Shop](#universal-free-tm-shop)
 - [Quest Mods](#quest-mods)
   - [The Three-Stone Covenant](#the-three-stone-covenant)
   - [The Mirage of Mew](#the-mirage-of-mew)
@@ -467,6 +468,24 @@ It allows you to enter a Pokédex number and immediately begin a normal wild enc
 3. Check the Pokémon name displayed in the window.
 4. Select **OK**.
 5. Begin the wild encounter.
+
+---
+
+## Universal Free TM Shop
+
+**Current version: v1.0.0**
+
+Speaking to the clerk in any Poké Mart opens a new menu with the following options:
+
+- **NORMAL SHOP** — opens the Mart's original item catalog;
+- **TM SHOP** — opens a catalog containing every TM from TM01 to TM50;
+- **LEAVE** — closes the shop menu.
+
+### TM Shop Features
+
+- TMs are sorted numerically.
+- Each entry also displays the move contained in the TM.
+- Every TM is sold for `0`.
 
 ---
 
