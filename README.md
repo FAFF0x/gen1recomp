@@ -1,7 +1,7 @@
 
 # Pokémon Recomp
 
-A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
+A collection of mods for the **original Pokémon ** designed to make the game more modern, accessible, and content-rich.
 
 All mods are available in the repository:
 
@@ -218,9 +218,9 @@ Then select **OPTIONS** to change the controls.
 
 ---
 
-## Modern Bag v1.3.0
+## Modern Bag v1.4.0
 
-Transforms the Bag into a modern inventory divided into six pockets, navigated with **Left** and **Right**.
+Transforms the Bag into a modern inventory divided into multiple pockets, navigated with **Left** and **Right**.
 
 It also removes the original 20-item-type capacity limit.
 
@@ -228,12 +228,53 @@ It also removes the original 20-item-type capacity limit.
 
 | Pocket | Contents |
 |---|---|
+| **FAVORITES** | Any items marked as favorites. Accessible by pressing **Left** from the Medicine pocket. |
 | **MEDICINE** | Potions, status-healing items, Revives, Ether, Elixir, vitamins, PP Ups, and Rare Candies. |
 | **BALLS** | Poké Balls, Great Balls, Ultra Balls, Master Balls, and Balls added by other mods. |
 | **TM HM** | All TMs and HMs. |
 | **BATTLE** | X items, Dire Hit, Guard Spec., and Poké Doll. |
 | **KEY ITEMS** | Bicycle, Fishing Rods, Poké Flute, keys, cards, and other important items. |
 | **OTHER** | Evolution Stones, Repels, Escape Rope, fossils, and general-purpose items. |
+
+### Favorites
+
+A new **FAVORITES** pocket has been added.
+
+It can be opened by pressing **Left** from the **MEDICINE** pocket.
+
+Any item can be added to Favorites, and favorite items can be used normally directly from this section.
+
+### Item Options
+
+Press **SELECT** on an item to open the **ITEM OPTIONS** menu:
+
+- **ADD FAVORITE** / **REMOVE FAVORITE**
+- **PIN TO TOP** / **UNPIN ITEM**
+- **MOVE ITEM**
+- **CANCEL**
+
+### Pinned Items
+
+Pinned items:
+
+- always remain at the top of their category;
+- are not moved by alphabetical sorting;
+- preserve the order in which they were pinned;
+- remain pinned after closing and reopening the game.
+
+### Indicators
+
+The following indicators may appear next to an item's quantity:
+
+| Indicator | Meaning |
+|---|---|
+| `F` | Favorite |
+| `P` | Pinned to the top |
+| `PF` | Favorite and pinned |
+
+Favorite and pinned settings remain saved even when an item's quantity reaches zero.
+
+When the item is obtained again, it automatically returns with the same settings.
 
 ### Automatic Sorting
 
@@ -242,13 +283,14 @@ Items are sorted automatically whenever the Bag is opened.
 The sorting order is based on:
 
 1. pocket;
-2. item name.
+2. pinned-item order;
+3. item name.
 
 TMs and HMs are sorted numerically, with HMs listed before TMs.
 
 The automatic sorting is refreshed whenever you obtain a new type of item.
 
-Manual reordering with **SELECT** remains available during the current play session.
+Manual reordering remains available through **SELECT → ITEM OPTIONS → MOVE ITEM** during the current play session.
 
 ### Quick Search
 
