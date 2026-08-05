@@ -222,7 +222,7 @@ Then select **OPTIONS** to change the controls.
 
 ## Modern Bag
 
-**Current version: v1.4.0**
+**Current version: v1.5.0**
 
 Transforms the Bag into a modern inventory divided into multiple pockets, navigated with **Left** and **Right**.
 
@@ -298,7 +298,7 @@ Manual reordering remains available through **SELECT → ITEM OPTIONS → MOVE I
 
 ### Quick Search
 
-Press **START** while inside the Bag to open the search screen.
+Press **START** while inside any standard Bag pocket to open the general search screen.
 
 #### Controls
 
@@ -313,6 +313,44 @@ The search checks every Bag pocket.
 Selecting a result automatically returns you to the correct pocket with the matching item highlighted.
 
 The search also correctly recognizes item names containing special characters, such as **POKé BALL**.
+
+### TM/HM Search, Filters, and Sorting
+
+While inside the **TM HM** pocket, press **START** to open a dedicated panel.
+
+The panel provides the following options:
+
+- **NAME** — search by move name, not only by TM or HM number;
+- **TYPE** — filter by move type, including Fire, Water, Grass, Electric, Psychic, and others;
+- **CLASS** — filter moves by category:
+  - **PHYSICAL**
+  - **SPECIAL**
+  - **STATUS**
+- **SORT** — choose one of the following sorting methods:
+  - **Machine Number**
+  - **Move Name**
+  - **Power High to Low**
+  - **Power Low to High**
+
+All filters can be combined.
+
+### TM/HM Move Information
+
+With a TM or HM highlighted, press:
+
+- **Controller:** `Y`
+- **Keyboard:** `I`
+
+The information screen displays:
+
+- TM or HM number;
+- move name;
+- type;
+- Physical, Special, or Status class;
+- power;
+- accuracy;
+- PP;
+- move effect.
 
 ---
 
