@@ -19,6 +19,7 @@ All mods are available in the repository:
   - [Guaranteed Catch](#guaranteed-catch)
   - [HM Anywhere](#hm-anywhere)
   - [Item Shortcut](#item-shortcut)
+  - [Kanto Achievements](#kanto-achievements)
   - [Modern Bag](#modern-bag)
   - [Move Inspector](#move-inspector)
   - [Moves Manager](#moves-manager)
@@ -217,6 +218,29 @@ Open the menu using:
 - **Controller:** `Y`
 
 Then select **OPTIONS** to change the controls.
+
+---
+
+## Kanto Achievements
+
+**Current version: v1.0.4**
+
+Adds a complete in-game achievement system with **100 unlockable achievements**.
+
+A new **ACHIEVEMENTS** option is added to the **START** menu.
+
+### Features
+
+- **100 achievements** available to unlock during gameplay;
+- three tabs:
+  - **ALL** — displays every achievement;
+  - **INCOMP** — displays incomplete achievements;
+  - **DONE** — displays completed achievements;
+- search by achievement name or description;
+- category filtering;
+- progress tracking;
+- completion percentages;
+- full achievement details.
 
 ---
 
