@@ -22,6 +22,7 @@ All mods are available in the repository:
   - [Kanto Achievements](#kanto-achievements)
   - [Modern Bag](#modern-bag)
   - [Move Inspector](#move-inspector)
+  - [Move Learn Stats](#move-learn-stats)
   - [Moves Manager](#moves-manager)
   - [Pokédex Plus](#pokédex-plus)
   - [Trade Evolution Fix](#trade-evolution-fix)
@@ -388,6 +389,30 @@ Displays technical information for the highlighted move directly during battle:
 - accuracy;
 - effectiveness;
 - STAB bonus.
+
+---
+
+## Move Learn Stats
+
+**Current version: v1.0.0**
+
+When a Pokémon already knows four moves and must forget one to learn a new move, the lower panel displays two comparison columns.
+
+### SELECTED
+
+Shows the currently highlighted move that would be forgotten:
+
+- move name;
+- **POWER**;
+- maximum **PP**.
+
+### LEARNING
+
+Shows the new move the Pokémon is about to learn:
+
+- move name;
+- **POWER**;
+- maximum **PP**.
 
 ---
 
