@@ -43,6 +43,7 @@ All mods are available in the repository:
   - [Ashes of Cinnabar](#ashes-of-cinnabar)
   - [The Empty Throne](#the-empty-throne)
   - [Echoes Beyond the Fog](#echoes-beyond-the-fog)
+  - [Crystal Onix](#crystal-onix)
   - [New Game Plus](#new-game-plus)
   - [Rocket Gym Ambushes](#rocket-gym-ambushes)
   - [Team Rocket Returns](#team-rocket-returns)
@@ -870,6 +871,35 @@ After the capture system is destroyed, the giant Dragonite returns freely to the
   - Level 50
   - Maximum DVs
   - Maximum Stat Experience
+
+---
+
+## Crystal Onix
+
+This quest introduces **Crystal Onix** as a completely new Pokédex species, separate from the original Onix.
+
+### Features
+
+- **Crystal Onix** added as a new Pokédex species.
+- **Rock / Ice** typing.
+- Custom front sprite, back sprite, icon, and overworld sprite.
+- A complete quest spanning:
+  - **Vermilion City**
+  - **Cinnabar Island**
+  - **Fuchsia City**
+  - **Seafoam Islands B4F**
+- New quest items:
+  - **Luminous Shard**
+  - **Tidal Charm**
+- A unique encounter with **Crystal Onix at Level 45**.
+- Crystal Onix can either be caught during the encounter or defeated and received later from the sailor.
+
+### Final Reward
+
+- **Crystal Onix**
+  - Level 45
+  - All DVs set to `15`
+  - All Stat Experience values set to `65,535`
 
 ---
 
