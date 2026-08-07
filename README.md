@@ -1,7 +1,7 @@
 
 # Pokémon Recomp
 
-A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
+A collection of mods for the **original Pokémon R/B/Y** designed to make the game more modern, accessible, and content-rich.
 
 All mods are available in the repository:
 
@@ -32,6 +32,8 @@ All mods are available in the repository:
   - [Reusable Machines](#reusable-machines)
   - [Summon](#summon)
   - [Universal Free TM Shop](#universal-free-tm-shop)
+- [ART Mods](#art-mods)
+  - [new_icons](#new_icons)
 - [Quest Mods](#quest-mods)
   - [The Three-Stone Covenant](#the-three-stone-covenant)
   - [The Mirage of Mew](#the-mirage-of-mew)
@@ -629,6 +631,16 @@ Speaking to the clerk in any Poké Mart opens a new menu with the following opti
 - TMs are sorted numerically.
 - Each entry also displays the move contained in the TM.
 - Every TM is sold for `0`.
+
+---
+
+# ART Mods
+
+## new_icons
+
+**Current version: v1.0.2**
+
+Replaces the game's **small Pokémon icons** with a new set of custom icons.
 
 ---
 
