@@ -12,6 +12,7 @@ All mods are available in the repository:
 ## Table of Contents
 
 - [Quality of Life Mods](#quality-of-life-mods)
+  - [Advanced Box System](#advanced-box-system)
   - [Area DexNav](#area-dexnav)
   - [Catch Helper](#catch-helper)
   - [DV/EV Editor](#dvev-editor)
@@ -51,6 +52,60 @@ All mods are available in the repository:
 ---
 
 # Quality of Life Mods
+
+## Advanced Box System
+
+**Current version: v1.0.0**
+
+Expands the original PC Box interface with faster navigation, direct swapping, and improved Box management.
+
+### WITHDRAW
+
+While browsing stored Pokémon:
+
+- press **Left / Right** to switch instantly between **BOX 1 and BOX 12**;
+- Box switching remains available even when the current Box is empty;
+- you can continue moving between Boxes without returning to the main PC menu.
+
+### DEPOSIT
+
+While viewing the party:
+
+- remain directly in the party list;
+- press **Left / Right** to change the destination Box in real time;
+- if the selected Box is full, you can immediately move to the next Box without leaving the menu.
+
+### SWAP POKéMON
+
+Adds a dedicated **SWAP POKéMON** option.
+
+To swap Pokémon:
+
+1. select a Pokémon stored in a Box;
+2. select a Pokémon in the party;
+3. the two Pokémon are exchanged directly.
+
+The swap system also works when:
+
+- the party already contains **6 Pokémon**;
+- the party contains only **1 Pokémon**.
+
+Because the total number of party members does not change, the normal party-size restrictions do not prevent the swap.
+
+### Quick SWAP
+
+A direct **SWAP** action is also available inside both:
+
+- **WITHDRAW**
+- **DEPOSIT**
+
+This allows Pokémon to be exchanged without returning to the main PC menu.
+
+### RELEASE
+
+The **RELEASE** menu also supports **Left / Right** Box switching, allowing you to move between Boxes without leaving the release screen.
+
+---
 
 ## Area DexNav
 
