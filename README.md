@@ -25,7 +25,6 @@ All mods are available in the repository:
   - [Modern Bag](#modern-bag)
   - [Move Inspector](#move-inspector)
   - [Move Learn Stats](#move-learn-stats)
-  - [New Item Icons](#new-item-icons)
   - [Moves Manager](#moves-manager)
   - [Pokédex Plus](#pokédex-plus)
   - [Trade Evolution Fix](#trade-evolution-fix)
@@ -37,6 +36,7 @@ All mods are available in the repository:
 - [ART Mods](#art-mods)
   - [new_icons](#new_icons)
   - [new_sprites](#new_sprites)
+  - [New Item Icons](#new-item-icons)
 - [Quest Mods](#quest-mods)
   - [The Three-Stone Covenant](#the-three-stone-covenant)
   - [The Mirage of Mew](#the-mirage-of-mew)
@@ -490,15 +490,6 @@ Shows the new move the Pokémon is about to learn:
 
 ---
 
-## New Item Icons
-
-Integrates **88 images** in total:
-
-- **70 sprites** for standard items;
-- **18 dedicated sprites** for TM/HM types.
-
----
-
 ## Moves Manager
 
 Adds a **MOVES** option to each party Pokémon's submenu.
@@ -674,6 +665,18 @@ Replaces the game's **small Pokémon icons** with a new set of custom icons.
 **Current version: v1.0.0**
 
 Replaces the original **Pokémon sprites** with a new set of **modern sprites**.
+
+---
+
+## New Item Icons
+
+Adds a new icon set for items.
+
+### Features
+
+- Includes **88 images** in total.
+- **70 sprites** for regular items.
+- **18 dedicated sprites** for **TM/HM types**.
 
 ---
 
