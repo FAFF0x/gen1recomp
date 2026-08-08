@@ -25,6 +25,7 @@ All mods are available in the repository:
   - [Modern Bag](#modern-bag)
   - [Move Inspector](#move-inspector)
   - [Move Learn Stats](#move-learn-stats)
+  - [New Item Icons](#new-item-icons)
   - [Moves Manager](#moves-manager)
   - [Pokédex Plus](#pokédex-plus)
   - [Trade Evolution Fix](#trade-evolution-fix)
@@ -486,6 +487,15 @@ Shows the new move the Pokémon is about to learn:
 - move name;
 - **POWER**;
 - maximum **PP**.
+
+---
+
+## New Item Icons
+
+Integrates **88 images** in total:
+
+- **70 sprites** for standard items;
+- **18 dedicated sprites** for TM/HM types.
 
 ---
 
