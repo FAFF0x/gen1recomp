@@ -27,6 +27,7 @@ All mods are available in the repository:
   - [Move Inspector](#move-inspector)
   - [Move Learn Stats](#move-learn-stats)
   - [Moves Manager](#moves-manager)
+  - [Nickname Changer](#nickname-changer)
   - [Pokédex Plus](#pokédex-plus)
   - [Trade Evolution Fix](#trade-evolution-fix)
   - [Quest System](#quest-system)
@@ -547,6 +548,23 @@ The initial move memory is rebuilt using:
 - currently known moves;
 - starting moves from the evolutionary line;
 - level-up moves learned up to the Pokémon's current level.
+
+---
+
+## Nickname Changer
+
+Adds a new renaming option directly to the standard **POKéMON** menu.
+
+When selecting a Pokémon, the submenu now includes:
+
+```text
+STATS → RENAME → SWITCH
+```
+
+### Features
+
+- Change a Pokémon's nickname directly from the party menu.
+- Nicknames can contain up to **10 characters**.
 
 ---
 
