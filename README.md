@@ -17,6 +17,7 @@ All mods are available in the repository:
   - [Catch Helper](#catch-helper)
   - [DV/EV Editor](#dvev-editor)
   - [EXP Share Modes](#exp-share-modes)
+  - [Free Master Ball](#free-master-ball)
   - [Free Rare Candy](#free-rare-candy)
   - [Guaranteed Catch](#guaranteed-catch)
   - [HM Anywhere](#hm-anywhere)
@@ -211,6 +212,19 @@ Adds three selectable Experience Point distribution modes.
 | **Off** | Only conscious Pokémon that participated in battle receive experience. |
 | **Classic Even Split** | Default mode. The full experience pool is divided evenly among all conscious Pokémon in the party. |
 | **Modern Progressive** | Participants split the normal 100% experience pool, while conscious Pokémon that did not battle split a second 50% pool. The total is approximately `1.5×`. |
+
+---
+
+## Free Master Ball
+
+**Current version: v1.0.0**
+
+Adds the **MASTER BALL** automatically to the **BUY** list of every standard Poké Mart.
+
+### Features
+
+- **MASTER BALL** is available in all normal Poké Marts.
+- The purchase price is set to **¥0**.
 
 ---
 
