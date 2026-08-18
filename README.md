@@ -1,7 +1,7 @@
 
 # Pokémon Recomp
 
-A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
+A collection of mods for the **original Pokémon ** designed to make the game more modern, accessible, and content-rich.
 
 All mods are available in the repository:
 
@@ -338,7 +338,7 @@ A new **ACHIEVEMENTS** option is added to the **START** menu.
 
 ## Modern Bag
 
-**Current version: v1.5.0**
+**Current version: v1.6.0**
 
 Transforms the Bag into a modern inventory divided into multiple pockets, navigated with **Left** and **Right**.
 
@@ -355,6 +355,38 @@ It also removes the original 20-item-type capacity limit.
 | **BATTLE** | X items, Dire Hit, Guard Spec., and Poké Doll. |
 | **KEY ITEMS** | Bicycle, Fishing Rods, Poké Flute, keys, cards, and other important items. |
 | **OTHER** | Evolution Stones, Repels, Escape Rope, fossils, and general-purpose items. |
+
+### Opening Pocket
+
+A new **Opening Pocket** option lets you choose which Bag pocket is displayed when the Bag is opened.
+
+Available choices:
+
+- **Favorites**
+- **Medicine**
+- **Balls**
+- **TM/HM**
+- **Battle**
+- **Key Items**
+- **Other**
+- **Last Used**
+
+**Medicine** remains the default setting for backwards compatibility.
+
+When **Last Used** is selected, the Bag remembers the pocket you were viewing and automatically reopens on that same pocket the next time.
+
+### Hold Scroll Speed
+
+A new **Hold Scroll Speed** option controls how quickly the item list scrolls while a direction is held.
+
+Available settings:
+
+- **Off**
+- **Normal**
+- **Fast**
+- **Very Fast**
+
+**Fast** is the new default setting.
 
 ### Favorites
 
