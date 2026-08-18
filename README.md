@@ -1,7 +1,7 @@
 
 # Pokémon Recomp
 
-A collection of mods for the **original Pokémon ** designed to make the game more modern, accessible, and content-rich.
+A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
 
 All mods are available in the repository:
 
@@ -750,7 +750,7 @@ Adds a new icon set for items.
 
 ## Performance Monitor
 
-**Current version: v1.3.0**
+**Current version: v1.4.1**
 
 A diagnostic tool designed to capture detailed performance data when you encounter lag in a specific area, menu, or battle.
 
@@ -817,7 +817,7 @@ The exported report includes:
 Reports are exported to:
 
 ```text
-AppData\Roaming\pokemon-love2d\performance_reports
+AppData\Roaming\pokemon-love2d\mod_storage\red
 ```
 
 ---
