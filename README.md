@@ -1,7 +1,7 @@
 
 # Pokémon Recomp
 
-A collection of mods for the **original Pokémon Red** designed to make the game more modern, accessible, and content-rich.
+A collection of mods for the **original Pokémon ** designed to make the game more modern, accessible, and content-rich.
 
 All mods are available in the repository:
 
@@ -24,6 +24,7 @@ All mods are available in the repository:
   - [Item Shortcut](#item-shortcut)
   - [Kanto Achievements](#kanto-achievements)
   - [Modern Bag](#modern-bag)
+  - [Modern Battle UI](#modern-battle-ui)
   - [Move Inspector](#move-inspector)
   - [Move Learn Stats](#move-learn-stats)
   - [Moves Manager](#moves-manager)
@@ -499,6 +500,83 @@ The information screen displays:
 - accuracy;
 - PP;
 - move effect.
+
+---
+
+## Modern Battle UI
+
+**Current version: v1.2.4**
+
+A complete overhaul of the battle interface, redesigned to provide a more modern, readable, and information-rich battle experience.
+
+### Main Features
+
+- **Completely redesigned battle HUD** with floating panels for the player's Pokémon and the opponent.
+- Modern HP bars, level display, status information, and improved readability.
+- **Fully redesigned command menu** with a true horizontal layout:
+
+```text
+FIGHT → BAG → POKéMON → RUN
+```
+
+### Modern FIGHT Menu
+
+The **FIGHT** menu now displays:
+
+- move name;
+- PP;
+- type;
+- power;
+- accuracy;
+- additional move information.
+
+It also shows the move's effectiveness against the current opposing Pokémon directly in the menu:
+
+- **SUPER x4**
+- **SUPER x2**
+- **NORMAL x1**
+- **RESIST x0.5**
+- **RESIST x0.25**
+- **NO EFFECT**
+
+### Modern Party UI
+
+The in-battle Party screen has been completely redesigned.
+
+It uses a more efficient layout with:
+
+- a compact Pokémon list on the left;
+- a detailed information panel on the right.
+
+The selected Pokémon panel immediately displays:
+
+- icon;
+- name;
+- type;
+- level;
+- status;
+- HP;
+- main stats;
+- moves.
+
+The interface also analyzes the selected Pokémon's moves against the current opponent, allowing you to immediately identify the most effective options.
+
+A **BEST OPTION** indicator highlights the move with the strongest matchup against the current enemy.
+
+### Modern Battle Bag
+
+The in-battle Bag has also been redesigned with:
+
+- an item list on the left;
+- a complete item information panel on the right.
+
+The Bag displays:
+
+- item icon;
+- item name;
+- category;
+- quantity;
+- description.
 
 ---
 
